@@ -27,3 +27,18 @@ a[class*="foo"]{
 div span{
     color:green;
 }
+div>span{
+    color:blue;
+}
+a~span{
+    color: brown;
+}
+a*span{
+    color: blueviolet;
+}
+.warning{
+    color: red;
+}
+.important{
+    color: green;
+}
