@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>box model and specificity</title>
+    <style>
+        html{margin: 0px; padding: 0px;}
+        *{margin: 0px;}
+        .b-m{
+            margin: 10px auto;
+            padding: 5px;
+            background-color: lightskyblue;
+            border: 2px solid #000;
+            width: 500px;
+            height: 200px; text-align: center;
+            box-sizing: border-box;
+        }
+    </style>
+</head>
+<body>
+    <div class="b-m">hello world!</div><br><br>
+    <span class="b-m"> hello world</span><br><br>
+    <div>hello world</div>
+    
+</body>
+</html>
